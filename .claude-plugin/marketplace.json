@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "interestnaut",
-      "source": "./",
+      "source": "./plugins/interestnaut",
       "description": "Ground recommendations in your real cross-media taste graph — films, TV, books, games, music, podcasts and creators you have actually reacted to and rated."
     }
   ]

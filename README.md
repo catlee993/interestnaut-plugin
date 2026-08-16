@@ -1,7 +1,7 @@
-# Interestnaut plugin for Claude
+# Interestnaut
 
-Connects Claude to your [Interestnaut](https://interestnaut.com) account so recommendations are
-grounded in what you have actually reacted to and rated — across films, TV, books, games, music,
+Connects your assistant to your [Interestnaut](https://interestnaut.com) account so recommendations
+are grounded in what you have actually reacted to and rated — across films, TV, books, games, music,
 podcasts and creators — instead of being guessed from genre labels.
 
 This repository contains only the plugin wrapper. The MCP server itself is hosted at
@@ -9,12 +9,12 @@ This repository contains only the plugin wrapper. The MCP server itself is hoste
 
 ## What it does
 
-Claude gets read access to your taste history and, if you approve it, the ability to record
-reactions and ratings for you. A typical exchange:
+You get read access to your taste history and, if you approve it, the ability to record reactions
+and ratings. A typical exchange:
 
 > **You:** I've got a free evening and I want something like *Annihilation* but not as bleak.
 >
-> **Claude:** *(reads your ratings and taste profile)* You rated *Arrival* 9 and *Under the Skin* 6,
+> **Assistant:** *(reads your ratings and taste profile)* You rated *Arrival* 9 and *Under the Skin* 6,
 > and your profile leans cerebral but away from despairing…
 
 Because it can write as well as read, you can also keep your library up to date without leaving the
@@ -44,10 +44,9 @@ from just an email address, and it will be waiting for you in the app afterwards
 ## Authentication and privacy
 
 Sign-in uses OAuth 2.1 with PKCE. You approve a consent screen listing exactly what you are granting,
-and you can disconnect at any time from Claude's own connector settings without signing out of the
-Interestnaut app.
+and you can disconnect at any time without signing out of the Interestnaut app.
 
-What the connector deliberately does **not** send to Claude:
+What the connector deliberately does **not** send:
 
 - Cover art or any image
 - Plot summaries and synopses
@@ -62,7 +61,9 @@ Full policy: <https://interestnaut.com/privacy>
 
 ## Install
 
-Claude Code or Cowork, via the official directory once listed. To add it directly meanwhile:
+### Claude Code / Cowork
+
+Via the official directory once listed. To add it directly meanwhile:
 
 ```
 /plugin marketplace add catlee993/interestnaut-plugin
@@ -71,7 +72,14 @@ Claude Code or Cowork, via the official directory once listed. To add it directl
 
 If the install summary says `Run /reload-plugins to activate.`, run that too.
 
-For Claude on the web or desktop, add the MCP server as a custom connector instead:
+### Codex
+
+**Add plugin marketplace**, with source `catlee993/interestnaut-plugin` and git ref `main`. Leave
+sparse paths blank. Then install Interestnaut from the marketplace it adds.
+
+### Claude web / desktop
+
+Add the MCP server as a custom connector instead:
 
 <https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Interestnaut&connectorUrl=https%3A%2F%2Fapi.interestnaut.com%2Fmcp>
 

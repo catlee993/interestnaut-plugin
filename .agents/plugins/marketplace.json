@@ -1,0 +1,20 @@
+{
+  "name": "interestnaut",
+  "interface": {
+    "displayName": "Interestnaut"
+  },
+  "plugins": [
+    {
+      "name": "interestnaut",
+      "source": {
+        "source": "local",
+        "path": "./plugins/interestnaut"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Other"
+    }
+  ]
+}

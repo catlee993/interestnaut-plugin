@@ -1,0 +1,47 @@
+{
+  "name": "interestnaut",
+  "version": "1.0.0",
+  "description": "Ground recommendations in a person's real cross-media taste graph — films, TV, books, games, music, podcasts and creators they have actually reacted to and rated.",
+  "author": {
+    "name": "Interestnaut",
+    "email": "support@interestnaut.com",
+    "url": "https://interestnaut.com"
+  },
+  "homepage": "https://interestnaut.com",
+  "repository": "https://github.com/catlee993/interestnaut-plugin",
+  "license": "MIT",
+  "keywords": [
+    "recommendations",
+    "movies",
+    "tv",
+    "books",
+    "games",
+    "music",
+    "podcasts",
+    "taste"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Interestnaut",
+    "shortDescription": "Recommendations grounded in your real cross-media taste graph",
+    "longDescription": "Interestnaut connects your account so recommendations are grounded in what you have actually reacted to and rated — across films, TV, books, games, music, podcasts and creators — instead of being guessed from genre labels.\n\nRead your reaction history, your 1–10 ratings and your five taste axes, search the catalog across all seven media types, and keep your library current without leaving the conversation: \"mark that one as a 7\", \"I've seen this, it was fine\".\n\nReactions are favorited, liked, watchlisted, meh, disliked and skipped, and they are not interchangeable — meh means you consumed something and felt nothing, while skipped means you passed without engaging and carries no opinion at all.\n\nCover art, plot summaries, private lists and adult titles are deliberately never sent; items come back as links to app.interestnaut.com, where the artwork and full detail stay.",
+    "developerName": "Interestnaut",
+    "category": "Other",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://interestnaut.com",
+    "privacyPolicyURL": "https://interestnaut.com/privacy",
+    "defaultPrompt": [
+      "What should I watch tonight, based on my ratings?",
+      "Find me a book like the ones I've favorited",
+      "Rate that film a 7 for me"
+    ],
+    "brandColor": "#6B58E0",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png",
+    "screenshots": []
+  }
+}
