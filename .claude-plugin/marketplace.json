@@ -1,0 +1,15 @@
+{
+  "name": "interestnaut",
+  "owner": {
+    "name": "Interestnaut",
+    "url": "https://interestnaut.com"
+  },
+  "description": "The official Interestnaut plugin — connect Claude to your cross-media taste graph.",
+  "plugins": [
+    {
+      "name": "interestnaut",
+      "source": "./",
+      "description": "Ground recommendations in your real cross-media taste graph — films, TV, books, games, music, podcasts and creators you have actually reacted to and rated."
+    }
+  ]
+}

@@ -66,7 +66,10 @@ Claude Code or Cowork, via the official directory once listed. To add it directl
 
 ```
 /plugin marketplace add catlee993/interestnaut-plugin
+/plugin install interestnaut@interestnaut
 ```
+
+If the install summary says `Run /reload-plugins to activate.`, run that too.
 
 For Claude on the web or desktop, add the MCP server as a custom connector instead:
 
