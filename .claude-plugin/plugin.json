@@ -1,0 +1,23 @@
+{
+  "name": "interestnaut",
+  "displayName": "Interestnaut",
+  "version": "1.0.0",
+  "description": "Ground recommendations in a person's real cross-media taste graph — films, TV, books, games, music, podcasts and creators they have actually reacted to and rated.",
+  "author": {
+    "name": "Interestnaut",
+    "url": "https://interestnaut.com"
+  },
+  "homepage": "https://interestnaut.com",
+  "repository": "https://github.com/catlee993/interestnaut-plugin",
+  "license": "MIT",
+  "keywords": [
+    "recommendations",
+    "movies",
+    "tv",
+    "books",
+    "games",
+    "music",
+    "podcasts",
+    "taste"
+  ]
+}
