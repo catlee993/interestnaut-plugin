@@ -1,6 +1,6 @@
 {
   "name": "interestnaut",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Ground recommendations in a person's real cross-media taste graph — films, TV, books, games, music, podcasts and creators they have actually reacted to and rated.",
   "author": {
     "name": "Interestnaut",
@@ -33,6 +33,7 @@
     ],
     "websiteURL": "https://interestnaut.com",
     "privacyPolicyURL": "https://interestnaut.com/privacy",
+    "termsOfServiceURL": "https://interestnaut.com/terms",
     "defaultPrompt": [
       "What should I watch tonight, based on my ratings?",
       "Find me a book like the ones I've favorited",
